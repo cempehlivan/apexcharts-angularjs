@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="gizApp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>body {font-family: 'Arial', sans-serif;}</style>
+</head>
+
+<body ng-controller="MainCtrl">
+
+    <button ng-click="updateData()">update line</button>
+    <apexcharts options="line"></apexcharts>
+
+    <button ng-click="updateData2()">update circle</button>
+    <div apexcharts options="circle"></div>
+
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.8.3/apexcharts.min.js"></script>
+    <script type="text/javascript" src="../dist/apexcharts.angularjs.min.js"></script>
+    <script type="text/javascript" src="./js/app.js"></script>
+</body>
+
+</html>
