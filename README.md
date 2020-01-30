@@ -1,6 +1,9 @@
 # apexcharts-angularjs
 
 
+# Online Demo
+[Demo](https://cempehlivan.github.io/apexcharts-angularjs/example/index.html)
+
 Charts are updated live with two-way binding.
 
 
