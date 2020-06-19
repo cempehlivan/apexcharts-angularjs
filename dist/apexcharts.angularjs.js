@@ -19,6 +19,10 @@ angular.module("apexcharts", [])
                 var chart = new ApexCharts(element[0].querySelector("div"), angular.copy(scope.options));
                 chart.render();
 
+                setTimeout(function () {
+                    chart.updateOptions(angular.copy(scope.options));
+                }, 100);
+
                 scope.$watch('options', function (val) {
                     chart.updateOptions(angular.copy(val));
                 }, true);
